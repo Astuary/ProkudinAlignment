@@ -1,0 +1,2 @@
+%% To work with double datatypes [0, 1]; we must make sure that all the values are normalized with that range. Because after changing some negative values to 0, the pixel values we get will not be normalized as the range is getting changed with the lower limit getting converted to 0
+output = rescale(output);
